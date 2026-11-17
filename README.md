@@ -60,3 +60,4 @@ set PORT=3001 && npm start
 - Notification system (RED risk alerts)
 - Desktop sidebar navigation
 "# WoundWatch-" 
+"# woundwatch.hackathon" 
