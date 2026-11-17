@@ -1,0 +1,27 @@
+{
+  "class_indices": {
+    "healthy": 0,
+    "infected": 1,
+    "mild_risk": 2
+  },
+  "index_to_class": {
+    "0": "healthy",
+    "1": "infected",
+    "2": "mild_risk"
+  },
+  "risk_mapping": {
+    "healthy": {
+      "risk": "GREEN",
+      "label": "Healthy - Normal Healing"
+    },
+    "mild_risk": {
+      "risk": "YELLOW",
+      "label": "Mild Risk - Monitor Closely"
+    },
+    "infected": {
+      "risk": "RED",
+      "label": "Infected - Seek Medical Attention"
+    }
+  },
+  "img_size": 224
+}

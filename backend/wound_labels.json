@@ -1,0 +1,20 @@
+{
+    "num_classes": 3,
+    "img_size": 380,
+    "classes": ["healthy", "infected", "mild_risk"],
+    "idx_to_class": {
+        "0": "healthy",
+        "1": "infected",
+        "2": "mild_risk"
+    },
+    "class_to_idx": {
+        "healthy": 0,
+        "infected": 1,
+        "mild_risk": 2
+    },
+    "risk_mapping": {
+        "healthy": {"risk": "GREEN", "label": "Healthy - Normal Healing"},
+        "mild_risk": {"risk": "YELLOW", "label": "Mild Risk - Monitor Closely"},
+        "infected": {"risk": "RED", "label": "Infected - Seek Medical Attention"}
+    }
+}
